@@ -2,7 +2,7 @@
 import { moonIcon, sunIcon } from '../../assets'
 
 import { useState, useRef, useEffect } from 'react'
-import { reactLocalStorage } from 'reactjs-localstorage'
+import { reactLocalStorage } from 'reactjs-localstorage' // Import the reactLocalStorage library for local storage management
 import { motion } from 'framer-motion'
 
 const Toggle = ({ children }) => {
