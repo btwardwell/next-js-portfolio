@@ -17,7 +17,7 @@ const Hero = () => {
         color: '#008cff',
     }
 
-    // Mouse actions
+    // Mouse actions, to be used for the 3D effect on the image
     const handleMouseMove = (e) => {
         const { clientX, clientY } = e
         x.set(clientX)
@@ -33,7 +33,6 @@ const Hero = () => {
     const socialLinkStyles = { 
         color: isHovered ? '#024a86' : '#008cff',
     }
-
 
     const { innerWidth, innerHeight } = windowOffset
 
@@ -85,7 +84,7 @@ const Hero = () => {
         
         </motion.div>
          <motion.div
-          initial={{ opacity: 0, y: 100 }}
+          initial={{ opacity: 0, y: 100 }} // Initial state: hidden and below the viewport
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5 }}
           className="max-w-[75vw] mt-8 flex justify-center gap-x-10 text-3xl sm:text-2xl"
