@@ -9,6 +9,7 @@ import Navbar from '../components/Navbar'
 import Projects from '../components/Projects'
 import Skills from '../components/Skills'
 import Toggle from '../components/sub/Toggle'
+import Values from '../components/Values'
 
 import { useState, useRef, useEffect } from 'react'
 import { staticHeaderAnimatedImage } from '../assets'
@@ -109,6 +110,7 @@ export default function Home() {
                 <Experience />
                 <Projects />
                 <About />
+                <Values />
               </div>
             </div> 
           <Footer />
