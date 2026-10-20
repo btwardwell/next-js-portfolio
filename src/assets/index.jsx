@@ -35,6 +35,8 @@ export const socialEmailIcons = [
 export const laptopCoffeeAboveImage = '/images/heroimage-laptopcoffee-001.jpg'
 export const staticHeaderAnimatedImage = '/images/static.gif'
 
+export const valuesImage = '/images/values.png'
+
 // Toggle
 import MoonFoggyFillIcon from 'remixicon-react/MoonFoggyFillIcon'
 import SunFoggyFillIcon from 'remixicon-react/SunFoggyFillIcon'
