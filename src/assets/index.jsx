@@ -52,10 +52,12 @@ import ArrowRightSLineIcon from 'remixicon-react/ArrowRightSLineIcon'
 import DownloadLineIcon from 'remixicon-react/DownloadLineIcon'
 import ArrowLeftSFillIcon from 'remixicon-react/ArrowLeftSFillIcon'
 import ArrowUpLineIcon from 'remixicon-react/ArrowUpLineIcon'
+// import RiUserLineIcon from 'remixicon-react/RiUserLineIcon'
 
 export const downloadIcon = <DownloadLineIcon />
 export const arrowLeftIcon = <ArrowLeftSFillIcon />
 export const arrowUpLineIcon = <ArrowUpLineIcon />
+// export const valuesHeartIcon = <RiUserLineIcon />
 
 
 /* eslint-disable react/jsx-key */
@@ -116,6 +118,11 @@ export const navbarDataBlue = [
     id: 'about',
     name: 'About',
     icon: '/icons/png/interface/blue/user.png',
+  },
+  {
+    id: 'values',
+    name: 'Values',
+    icon: '/icons/png/interface/blue/values-heart.png',
   },
 ]
 
