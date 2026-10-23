@@ -16,8 +16,19 @@ const geistMono = Geist_Mono({
 const outfit = Outfit({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Brian Wardwell | Web Development',
+  title: 'Software Developer | Brian Wardwell',
   description: 'Brian Wardwell: Web and Software Developer Portfolio Website',
+  openGraph: {
+    title: 'Software Developer | Brian Wardwell',
+    description: 'Brian Wardwell: Web and Software Developer Portfolio Website',
+    type: 'website',
+    url: 'https://developer.brianwardwell.com/',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Software Developer | Brian Wardwell',
+    description: 'Brian Wardwell: Web and Software Developer Portfolio Website',
+  },
 }
 
 export default function RootLayout({ children }) {
