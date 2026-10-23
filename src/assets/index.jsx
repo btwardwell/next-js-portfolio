@@ -12,7 +12,7 @@ export const socialEmailIcons = [
     {
       icon: <MailLineIcon />,
       name: 'Email',
-      href: 'mailto:brianwardwell@brianwardwell.com',
+      href: 'mailto:bwardwell@brianwardwell.com',
     },
     {
       icon: <LinkedinBoxLineIcon />,
@@ -22,7 +22,7 @@ export const socialEmailIcons = [
   {
     icon: <GithubLineIcon />,
     name: 'GitHub',
-    href: 'https://github.com/spartanbyte/',
+    href: 'https://github.com/btwardwell/',
   },
   {
     icon: <StackOverflowLineIcon />,
@@ -110,6 +110,11 @@ export const navbarDataBlue = [
     icon:  '/icons/png/interface/blue/experience.png',
   },
   {
+    id: 'values',
+    name: 'Values',
+    icon: '/icons/png/interface/blue/values-heart.png',
+  },
+  {
     id: 'projects',
     name: 'Projects',
     icon: '/icons/png/interface/blue/projects.png',
@@ -118,11 +123,6 @@ export const navbarDataBlue = [
     id: 'about',
     name: 'About',
     icon: '/icons/png/interface/blue/user.png',
-  },
-  {
-    id: 'values',
-    name: 'Values',
-    icon: '/icons/png/interface/blue/values-heart.png',
   },
 ]
 

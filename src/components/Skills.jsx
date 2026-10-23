@@ -97,7 +97,7 @@ const variants = {
             {otherSkillsAndToolsData.map((item, index) => (
                 <div className="w-full md:w-64 flex flex-col items-center gap-x-3 gap-y-5 rounded-xl border border-opacity-10 px-5 py-2 lg:px-2" key={index}>
                     <p className="font-bold" key={index}>{item.name}</p>
-                    <ul className="list-disc">
+                    <ul className="w-full list-disc">
                         {item.skill_items.map((skillItem, i) => (
                             <li className="ml-4" index={i} key={i}>
                                 {skillItem.text}

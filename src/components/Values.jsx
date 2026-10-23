@@ -7,7 +7,9 @@ import { valuesImage } from '../assets'
 const Values = () => {
     return(
         <div id="values" className="min-h-screen flex flex-col items-center justify-start">
-            <SectionHeading text={'My Values and Mission'} />
+            <div className="grid w-full grid-cols-1 gap-8 px-4 lg:grid-cols-2 lg:items-start">
+                <SectionHeading text={'My Values and Mission'} />
+            </div>
             <div className="grid w-full grid-cols-1 gap-8 px-4 lg:grid-cols-2 lg:items-start">
                 <section className="background mb-14">
                     <div className="flex justify-center mt-5">
@@ -45,7 +47,7 @@ const Values = () => {
                             <li className="font-bold text-lg text-gray-700 dark:text-white">
                                 Dilligence and Accountability
                                 <ul className="font-normal ps-5 mt-2 space-y-1 list-inside border-l-[5px] border-l-gray-500 border-solid p-4">
-                                    <li>Autonomy and ownership, reaching out for input because it is the right thing and demanding excellence and quality.</li>
+                                    <li>Autonomy and ownership, reaching out for help because it is the right thing and demanding excellence and quality.</li>
                                 </ul>
                             </li>
                             <li className="font-bold text-lg text-gray-700 dark:text-white">

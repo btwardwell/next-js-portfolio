@@ -11,6 +11,7 @@ const About = () => {
             <Image
                 src={'/images/about-collage.png'}
                 alt="Portrait image of Brian Wardwell"
+                className="pb-4"
                 width={890}
                 height={500}
             />
