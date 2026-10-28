@@ -16,7 +16,7 @@ const PortfolioProject = ({ data, index }) => {
     <div id="portfolio-project" className="min-w-full border-b-2 border-gray-700">
       { /* chaining for safety */ }
       { /* image_description, fallback to project name, then generic */ }
-      <div className="flex pb-4">
+      <div className="flex flex-col gap-3 pb-4 md:flex-row">
         {data?.images?.map((imageItem, i) => (
           <a href={imageItem.image} className="mr-3" key={i}>
             <Image

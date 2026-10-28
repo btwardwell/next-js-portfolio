@@ -112,6 +112,9 @@ const Hero = () => {
                 <AnimatedNavLink href="#experience">
                     Experience
                 </AnimatedNavLink>
+                <AnimatedNavLink href="#values">
+                    Values
+                </AnimatedNavLink>
                 <AnimatedNavLink href="#projects">
                     Projects
                 </AnimatedNavLink>

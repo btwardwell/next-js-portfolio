@@ -97,7 +97,7 @@ export default function Home() {
           ]
         }) }} />
         <Navbar id={id} />
-        <div className="w-75 md:w-full h-full flex flex-col justify-between ml-20 px-2 py-10 xl:py-6 z-10" ref={compsRef} >
+        <div className=" md:w-full h-full flex flex-col justify-between ml-20 px-2 py-10 xl:py-6 z-10" ref={compsRef} >
           <Hero />
             <div className="relative isolate xl:w-full mx-auto xl:px-[90px] sm:pl-[80px] sm:pr-5" style={{ padding: '20px', backgroundColor: 'rgba(39,39,42,0.6)'  }}>
               <div
@@ -108,9 +108,9 @@ export default function Home() {
               <div className="relative z-10">
                 <Skills />
                 <Experience />
+                <Values />
                 <Projects />
                 <About />
-                <Values />
               </div>
             </div> 
           <Footer />
